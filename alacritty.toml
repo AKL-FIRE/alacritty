@@ -1,0 +1,61 @@
+import = [
+  "/Users/bytedance/.config/alacritty/themes/themes/catppuccin.toml",
+  "/Users/bytedance/.config/alacritty/fonts.toml",
+]
+live_config_reload = true
+
+[shell]
+program = "/bin/zsh"
+args = ["-l"]
+
+[bell]
+animation = "EaseOutExpo"
+color = "#ffffff"
+duration = 100
+
+[cursor]
+blink_interval = 700
+unfocused_hollow = true
+
+[cursor.style]
+blinking = "Always"
+shape = "Block"
+
+[terminal]
+osc52 = "CopyPaste"
+
+[mouse]
+hide_when_typing = true
+
+[[mouse.bindings]]
+action = "PasteSelection"
+mouse = "Right"
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[selection]
+save_to_clipboard = true
+semantic_escape_chars = ",│`|:\"' ()[]{}<>"
+
+[window]
+decorations = "Buttonless"
+dynamic_padding = true
+dynamic_title = true
+opacity = 0.8
+option_as_alt = "Both"
+resize_increments = true
+startup_mode = "Windowed"
+
+[window.dimensions]
+columns = 120
+lines = 35
+
+[keyboard]
+bindings = [
+  { key = "F4", action = "ToggleSimpleFullscreen" },
+  { key = "c", mods = "Command", action = "Copy" },
+  { key = "v", mods = "Command", action = "Paste" },
+  { key = "n", mods = "Command", action = "CreateNewWindow" },
+]
