@@ -58,4 +58,8 @@ bindings = [
   { key = "c", mods = "Command", action = "Copy" },
   { key = "v", mods = "Command", action = "Paste" },
   { key = "n", mods = "Command", action = "CreateNewWindow" },
+  { key = "n", mods = "Control", action = "CreateNewTab" },
+  { key = "n", mods = "Shift", action = "SelectNextTab" },
+  { key = "p", mods = "Shift", action = "SelectPreviousTab" },
+  { key = "q", mods = "Command", action = "Quit" },
 ]
