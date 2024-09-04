@@ -64,8 +64,5 @@ bindings = [
   { key = "q", mods = "Command", action = "Quit" },
   { key = "u", mods = "Control", action = "ScrollHalfPageUp" },
   { key = "d", mods = "Control", action = "ScrollHalfPageDown" },
-  { key = "b", mods = "Control", action = "ScrollPageUp" },
-  { key = "f", mods = "Control", action = "ScrollPageDown" },
-  { key = "e", mods = "Control", action = "ScrollLineUp" },
-  { key = "f", mods = "Control", action = "ScrollLineDown" },
+  { key = "t", mods = "Control", action = "ToggleViMode" },
 ]
