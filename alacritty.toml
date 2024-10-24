@@ -1,10 +1,4 @@
-import = [
-  "/Users/bytedance/.config/alacritty/themes/themes/catppuccin.toml",
-  "/Users/bytedance/.config/alacritty/fonts.toml",
-]
-live_config_reload = true
-
-[shell]
+[terminal.shell]
 program = "/bin/zsh"
 args = ["-l"]
 
@@ -64,4 +58,11 @@ bindings = [
   { key = "u", mods = "Control", action = "ScrollHalfPageUp" },
   { key = "d", mods = "Control", action = "ScrollHalfPageDown" },
   { key = "t", mods = "Control", action = "ToggleViMode" },
+]
+
+[general]
+live_config_reload = true
+import = [
+  "/Users/bytedance/.config/alacritty/themes/themes/catppuccin.toml",
+  "/Users/bytedance/.config/alacritty/fonts.toml",
 ]
